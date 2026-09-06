@@ -97,7 +97,7 @@ Every agent returns work in a fixed nine-line envelope validated by a script the
 
 ## 5. Evaluation
 
-![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact) and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel-dark.en.svg)
+![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact) and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel-light.en.svg)
 
 *Figure 1. Real figures of the verification substrate at the measured commit. Nothing fabricated.*
 
