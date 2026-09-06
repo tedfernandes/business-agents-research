@@ -4,7 +4,7 @@
 
 *Language: [Português](README.md) · **English***
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7522--326X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946)
 
 This repository holds a preprint and sanitized illustrative material for a design pattern
 observed in a production multi-agent system we call **squad-harness**: a **verification
