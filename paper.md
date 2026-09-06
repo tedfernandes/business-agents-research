@@ -3,6 +3,7 @@
 **Ted Fernandes**
 Pesquisador e praticante independente
 `tedfernandes@gmail.com`
+ORCID: [0009-0006-7522-326X](https://orcid.org/0009-0006-7522-326X)
 
 *Preprint, versão 1.0 (2026-09). Relato de experiência / artigo de sistemas.*
 

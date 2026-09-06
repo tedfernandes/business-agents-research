@@ -6,6 +6,7 @@ authors:
   - family-names: Fernandes
     given-names: Ted
     email: tedfernandes@gmail.com
+    orcid: "https://orcid.org/0009-0006-7522-326X"
 abstract: >-
   Multi-agent LLM frameworks have converged on a company-of-agents organization, but
   under-address how such systems verify their own output and avoid reporting success when

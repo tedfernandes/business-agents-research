@@ -55,8 +55,10 @@ sanitizadas de mecanismo.
 
 ## Citação
 
-Há um `CITATION.cff` (o GitHub mostra o botão "Cite this repository"). Um DOI pode ser
-emitido na release via Zenodo.
+Autor: Ted Fernandes ([ORCID 0009-0006-7522-326X](https://orcid.org/0009-0006-7522-326X)).
+
+Há um `CITATION.cff` (o GitHub mostra o botão "Cite this repository"). DOI (concept, todas as
+versões): [10.5281/zenodo.22481935](https://doi.org/10.5281/zenodo.22481935).
 
 ## Licença
 

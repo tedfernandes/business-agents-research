@@ -51,8 +51,10 @@ All figures are anonymized and all code excerpts are sanitized illustrations of 
 
 ## Citing
 
-A `CITATION.cff` is provided (GitHub renders a "Cite this repository" button). A DOI can be
-minted on release via Zenodo.
+Author: Ted Fernandes ([ORCID 0009-0006-7522-326X](https://orcid.org/0009-0006-7522-326X)).
+
+A `CITATION.cff` is provided (GitHub renders a "Cite this repository" button). DOI (concept, all
+versions): [10.5281/zenodo.22481935](https://doi.org/10.5281/zenodo.22481935).
 
 ## License
 
