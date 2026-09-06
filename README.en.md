@@ -4,6 +4,8 @@
 
 *Language: [Português](README.md) · **English***
 
+[![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946)
+
 This repository holds a preprint and sanitized illustrative material for a design pattern
 observed in a production multi-agent system we call **squad-harness**: a **verification
 substrate** that sits beneath the (conventional) company-of-agents organization and keeps it

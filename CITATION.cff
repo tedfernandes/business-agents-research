@@ -26,3 +26,12 @@ keywords:
 version: "1.0"
 date-released: "2026-09-06"
 license: CC-BY-4.0
+repository-code: "https://github.com/tedfernandes/squad-harness"
+url: "https://tedfernandes.github.io/squad-harness/"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22481935"
+    description: "Concept DOI (todas as versões)"
+  - type: doi
+    value: "10.5281/zenodo.22481936"
+    description: "DOI da versão v1.0"
