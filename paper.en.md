@@ -96,6 +96,10 @@ Every agent returns work in a fixed nine-line envelope validated by a script the
 
 ## 5. Evaluation
 
+![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact) and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel.en.svg)
+
+*Figure 1. Real figures of the verification substrate at the measured commit. Nothing fabricated.*
+
 We evaluate against the system's own artifacts. We separate mechanisms that are *fully exercised* from those that are *defined but lightly exercised*, because conflating the two would violate the very principle the system embodies.
 
 **Structural ratchet (fully exercised).** At the measured commit the ratchet enforces 45 invariants, each provenance-linked to a confirmed defect. Because the ledger only grows, the recurrence rate of a *fixed-and-ledgered* defect is, by construction, zero: a regression re-trips its invariant before publication. A subset of invariants execute the real artifact (parser suite, guard suite, end-to-end flow) rather than matching text; these exist specifically because text-matching variants produced false "green" results in the past.

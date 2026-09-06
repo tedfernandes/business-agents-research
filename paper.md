@@ -96,6 +96,10 @@ Todo agente devolve trabalho em um envelope fixo de nove linhas, validado por um
 
 ## 5. Avaliação
 
+![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato) e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel.pt.svg)
+
+*Figura 1. Números reais do substrato de verificação no commit medido. Nada fabricado.*
+
 Avaliamos contra os próprios artefatos do sistema. Separamos os mecanismos *plenamente exercitados* dos *definidos, mas pouco exercitados*, porque confundir os dois violaria o próprio princípio que o sistema encarna.
 
 **Catraca estrutural (plenamente exercitada).** No commit medido, a catraca impõe 45 invariantes, cada uma rastreável a um defeito confirmado. Como o livro-razão só cresce, a taxa de reincidência de um defeito *já corrigido e registrado* é, por construção, zero: uma regressão retrip a sua invariante antes da publicação. Um subconjunto das invariantes executa o artefato real (suíte do parser, suíte do guarda, fluxo ponta a ponta) em vez de casar texto; elas existem justamente porque variantes de casamento de texto produziram falsos "verdes" no passado.

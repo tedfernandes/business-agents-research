@@ -1,57 +1,64 @@
-# Verification-First Governance for LLM Agent Systems
+# Governança de Verificação em Sistemas de Agentes LLM
 
-> Treating agent output with CI-grade skepticism.
+> Tratando a saída do agente com o ceticismo de um CI.
 
-This repository holds a preprint and sanitized illustrative material for a design pattern
-observed in a production multi-agent system we call **squad-harness**: a **verification
-substrate** that sits beneath the (conventional) company-of-agents organization and keeps it
-honest.
+*Idioma: **Português** · [English](README.en.md)*
 
-**Read online:** https://tedfernandes.github.io/squad-harness/
+Este repositório reúne um preprint e material ilustrativo sanitizado de um padrão de projeto
+observado num sistema multiagente em produção que chamamos de **squad-harness**: um
+**substrato de verificação** montado por baixo da (convencional) organização de "empresa de
+agentes", que a mantém honesta.
 
-The central claim is deliberately narrow:
+A tese, propositalmente estreita:
 
-> The organizational layer of multi-agent systems (roles, coordinators, personas) is commodity.
-> The verification layer beneath it is under-explored, and making **"not measured" a first-class
-> outcome** is the single most valuable design decision in the system.
+> A camada organizacional dos sistemas multiagente (papéis, coordenadores, personas) é
+> commodity. A camada de verificação por baixo dela é pouco explorada, e fazer do
+> **"não medido" um resultado de primeira classe** é a decisão de projeto mais valiosa do
+> sistema.
 
-## The five mechanisms
+![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato), e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel.pt.svg)
 
-1. **The third state.** Every gate returns pass / fail / *indeterminate*. "Not measured" is never
-   rounded to "passed"; indeterminate is a distinct exit code and never auto-merges.
-2. **The defect-ledger ratchet.** An LLM-free gate of 45 invariants, each one provenance-linked to
-   a real, previously confirmed defect. Verification prefers *executing the artifact* over
-   *string-matching its text* ("mention does not prove existence").
-3. **The closing loop.** Each confirmed defect is compiled into either a new mechanical invariant
-   or a new behavioral evaluation case, so audits raise a floor instead of aging into a report.
-4. **Prompt-change governance.** Prompt edits ship only through a property-based
-   evaluation-regression gate. Prompts are code under test.
-5. **Untrusted context.** Agent-authored content injected back into the model is framed as
-   reference, not instruction, and scanned for injection patterns.
+## Os cinco mecanismos
 
-## Read the paper
+1. **O terceiro estado.** Todo gate devolve passou / falhou / *indeterminado*. "Não medido"
+   nunca é arredondado para "passou"; indeterminado é um código de saída distinto e nunca dá
+   merge automático.
+2. **A catraca de defeitos.** Um gate sem LLM com 45 invariantes, cada uma rastreável a um
+   defeito real já confirmado. A verificação prefere *executar o artefato* a *casar o texto*
+   dele ("menção não prova existência").
+3. **O loop que fecha.** Todo defeito confirmado é compilado em uma invariante mecânica nova
+   ou em um caso de avaliação comportamental novo, então auditorias elevam um piso em vez de
+   virar relatório que envelhece.
+4. **Governança de mudança de prompt.** Edições de prompt só sobem por um gate de regressão
+   de avaliação por propriedade. Prompt é código sob teste.
+5. **Contexto não-confiável.** Conteúdo escrito por agente e reinjetado no modelo é tratado
+   como referência, não instrução, e escaneado por padrão de injeção.
+
+## Ler o paper
 
 - Português (principal): [`paper.md`](paper.md) - preprint completo (v1.0).
 - English: [`paper.en.md`](paper.en.md) - full preprint, English (v1.0).
+- Online (GitHub Pages): https://tedfernandes.github.io/squad-harness/
 
-Both versions are kept in sync; the Portuguese version (`paper.md`) is the primary version of record.
+As duas versões ficam em sincronia; o português (`paper.md`) é a versão de registro.
 
-## Status and honesty note
+## Status e nota de honestidade
 
-This is a **preprint / experience report**, not peer-reviewed work, from a **single-operator**
-deployment. The evaluation separates mechanisms that are *fully exercised* from those that are
-*defined but lightly exercised*, and states threats to validity plainly (N=1, self-reported,
-author is also evaluator). See the paper's Sections 5 and 6.
+Este é um **preprint / relato de experiência**, sem revisão por pares, de uma implantação de
+**um único operador**. A avaliação separa os mecanismos *plenamente exercitados* dos apenas
+*cabeados* e declara as ameaças à validade com clareza (N=1, auto-relato, o autor também é o
+avaliador). Ver Seções 5 e 6 do paper.
 
-No client data, production-security detail, or verbatim operational configuration appears here.
-All figures are anonymized and all code excerpts are sanitized illustrations of mechanism.
+Nenhum dado de cliente, detalhe de segurança de produção ou configuração operacional literal
+aparece aqui. Todos os números são anonimizados e os trechos de código são ilustrações
+sanitizadas de mecanismo.
 
-## Citing
+## Citação
 
-If you reference this work, a `CITATION.cff` is provided (GitHub renders a "Cite this repository"
-button). A DOI can be minted on release via Zenodo.
+Há um `CITATION.cff` (o GitHub mostra o botão "Cite this repository"). Um DOI pode ser
+emitido na release via Zenodo.
 
-## License
+## Licença
 
-- **Prose** (`paper.md`, this README): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Code snippets** (illustrative): [MIT](LICENSE).
+- **Prosa** (`paper.md`, `paper.en.md`, este README): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Trechos de código** (ilustrativos): [MIT](LICENSE).
