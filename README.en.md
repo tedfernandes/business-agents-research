@@ -37,9 +37,6 @@ The central claim is deliberately narrow:
 - English: [`paper.en.md`](paper.en.md) - full preprint (v1.0).
 - Online (GitHub Pages): https://tedfernandes.github.io/squad-harness/
 
-Both versions are kept in sync; the Portuguese version (`paper.md`) is the primary version of
-record.
-
 ## Status and honesty note
 
 This is a **preprint / experience report**, not peer-reviewed work, from a **single-operator**
