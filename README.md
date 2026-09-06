@@ -3,8 +3,11 @@
 > Treating agent output with CI-grade skepticism.
 
 This repository holds a preprint and sanitized illustrative material for a design pattern
-observed in a production multi-agent system: a **verification substrate** that sits beneath
-the (conventional) company-of-agents organization and keeps it honest.
+observed in a production multi-agent system we call **squad-harness**: a **verification
+substrate** that sits beneath the (conventional) company-of-agents organization and keeps it
+honest.
+
+**Read online:** https://tedfernandes.github.io/squad-harness/
 
 The central claim is deliberately narrow:
 
@@ -28,10 +31,10 @@ The central claim is deliberately narrow:
 
 ## Read the paper
 
-- English: [`paper.md`](paper.md) - the full preprint (v1.0).
-- Português: [`paper.pt-br.md`](paper.pt-br.md) - versão em português (v1.0).
+- Português (principal): [`paper.md`](paper.md) - preprint completo (v1.0).
+- English: [`paper.en.md`](paper.en.md) - full preprint, English (v1.0).
 
-Both language versions are kept in sync; the English version is the version of record for citation.
+Both versions are kept in sync; the Portuguese version (`paper.md`) is the primary version of record.
 
 ## Status and honesty note
 

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Verification-First Governance for LLM Agent Systems: Treating Agent Output with CI-Grade Skepticism"
+title: "Governança de Verificação em Sistemas de Agentes LLM: tratando a saída do agente com o ceticismo de um CI"
 message: "If you use or reference this work, please cite it as below."
 type: article
 authors:
