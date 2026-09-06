@@ -4,7 +4,7 @@
 
 *Idioma: **Português** · [English](README.en.md)*
 
-[![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7522--326X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7522--326X-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946)
 
 Este repositório reúne um preprint e material ilustrativo sanitizado de um padrão de projeto
 observado num sistema multiagente em produção que chamamos de **squad-harness**: um
