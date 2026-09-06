@@ -40,8 +40,6 @@ A tese, propositalmente estreita:
 - English: [`paper.en.md`](paper.en.md) - full preprint, English (v1.0).
 - Online (GitHub Pages): https://tedfernandes.github.io/squad-harness/
 
-As duas versões ficam em sincronia; o português (`paper.md`) é a versão de registro.
-
 ## Status e nota de honestidade
 
 Este é um **preprint / relato de experiência**, sem revisão por pares, de uma implantação de
