@@ -1,4 +1,4 @@
-# Governança de Verificação em Sistemas de Agentes LLM: tratando a saída do agente com o ceticismo de um CI
+# Governança de Verificação em Sistemas de Agentes LLM: tratando a saída do agente com o ceticismo da integração contínua
 
 **Ted Fernandes**
 Pesquisador e praticante independente
@@ -39,7 +39,7 @@ Somos francos que este é um *relato de experiência* de uma implantação de um
 
 **Avaliação de agentes e de prompts.** O SWE-bench [9] e afins medem taxa de sucesso em tarefas; ferramentas como promptfoo e LangSmith [10] fornecem harness de avaliação de prompt/agente. Elas costumam ser aplicadas *externamente*, para medir um sistema. Nós, em vez disso, cabeamos avaliação por propriedade *dentro do caminho de release* dos próprios agentes: uma mudança de prompt que regride um caso-golden não pode ir ao ar.
 
-**Gates de engenharia de software.** Integração contínua, invariantes e suítes de regressão são práticas consolidadas. A contribuição aqui não é inventar gates, e sim *virá-los para dentro*: aplicar o ceticismo de um CI à configuração e à saída de um sistema de agentes, e tratar os próprios artefatos escritos pelo agente como entrada não-confiável.
+**Gates de engenharia de software.** Integração contínua (CI), invariantes e suítes de regressão são práticas consolidadas. A contribuição aqui não é inventar gates, e sim *virá-los para dentro*: aplicar o ceticismo de um CI à configuração e à saída de um sistema de agentes, e tratar os próprios artefatos escritos pelo agente como entrada não-confiável.
 
 A lacuna que atacamos fica entre essas literaturas: frameworks de orquestração assumem que a verificação é problema do usuário; ferramentas de avaliação ficam fora do sistema em execução; reflexão melhora o comportamento sem impô-lo de forma dura. Relatamos como é fazer da verificação a espinha do sistema.
 

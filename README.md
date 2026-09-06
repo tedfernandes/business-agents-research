@@ -1,6 +1,6 @@
 # Governança de Verificação em Sistemas de Agentes LLM
 
-> Tratando a saída do agente com o ceticismo de um CI.
+> Tratando a saída do agente com o ceticismo da integração contínua.
 
 *Idioma: **Português** · [English](README.en.md)*
 

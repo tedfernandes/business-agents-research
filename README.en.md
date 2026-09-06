@@ -1,6 +1,6 @@
 # Verification-First Governance for LLM Agent Systems
 
-> Treating agent output with CI-grade skepticism.
+> Treating agent output with the skepticism of continuous integration.
 
 *Language: [Português](README.md) · **English***
 

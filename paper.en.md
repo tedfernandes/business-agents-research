@@ -1,4 +1,4 @@
-# Verification-First Governance for LLM Agent Systems: Treating Agent Output with CI-Grade Skepticism
+# Verification-First Governance for LLM Agent Systems: Treating Agent Output with the Skepticism of Continuous Integration
 
 **Ted Fernandes**
 Independent researcher and practitioner
@@ -39,7 +39,7 @@ We are candid that this is an *experience report* from a single-operator deploym
 
 **Evaluation of agents and prompts.** SWE-bench [9] and similar benchmarks measure task success rates; tooling such as promptfoo and LangSmith [10] provides prompt/agent evaluation harnesses. These are typically applied *externally*, to measure a system. We instead wire property-based evaluation *into the release path* of the agents themselves: a prompt change that regresses a golden case cannot ship.
 
-**Software-engineering gates.** Continuous integration, invariants, and regression suites are standard practice in software engineering. The contribution here is not inventing gates but *turning them inward*: applying CI-grade skepticism to the configuration and output of an agent system, and treating the agent's own written artifacts as untrusted input.
+**Software-engineering gates.** Continuous integration (CI), invariants, and regression suites are standard practice in software engineering. The contribution here is not inventing gates but *turning them inward*: applying CI-grade skepticism to the configuration and output of an agent system, and treating the agent's own written artifacts as untrusted input.
 
 The gap we address sits between these literatures: orchestration frameworks assume verification is the user's problem; evaluation tooling sits outside the running system; reflection improves behavior without hard-enforcing it. We report what it looks like to make verification the spine of the system.
 
