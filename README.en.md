@@ -15,7 +15,7 @@ The central claim is deliberately narrow:
 > The verification layer beneath it is under-explored, and making **"not measured" a first-class
 > outcome** is the single most valuable design decision in the system.
 
-![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact), and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel.en.svg)
+![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact), and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel-dark.en.svg)
 
 ## The five mechanisms
 

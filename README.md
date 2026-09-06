@@ -16,7 +16,7 @@ A tese, propositalmente estreita:
 > **"não medido" um resultado de primeira classe** é a decisão de projeto mais valiosa do
 > sistema.
 
-![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato), e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel.pt.svg)
+![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato), e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel-dark.pt.svg)
 
 ## Os cinco mecanismos
 

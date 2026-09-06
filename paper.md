@@ -96,7 +96,7 @@ Todo agente devolve trabalho em um envelope fixo de nove linhas, validado por um
 
 ## 5. Avaliação
 
-![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato) e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel.pt.svg)
+![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato) e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel-dark.pt.svg)
 
 *Figura 1. Números reais do substrato de verificação no commit medido. Nada fabricado.*
 
