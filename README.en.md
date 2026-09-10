@@ -4,7 +4,7 @@
 
 *Language: [Português](README.md) · **English***
 
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://zenodo.org/badge/1358794946.svg)](https://zenodo.org/badge/latestdoi/1358794946)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22481935-1682D4)](https://doi.org/10.5281/zenodo.22481935) [![Version](https://img.shields.io/github/v/release/tedfernandes/squad-harness-research?label=version&color=1682D4)](https://github.com/tedfernandes/squad-harness-research/releases) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/) [![paper online](https://img.shields.io/badge/paper-online-2ea44f?logo=github&logoColor=white)](https://tedfernandes.github.io/squad-harness-research/)
 
 This repository holds a preprint and sanitized illustrative material for a design pattern
 observed in a production multi-agent system we call **squad-harness**: a **verification
