@@ -24,15 +24,12 @@ keywords:
   - evaluation
   - agent governance
   - experience report
-version: "1.0"
-date-released: "2026-09-06"
+version: "1.2"
+date-released: "2026-09-09"
 license: CC-BY-4.0
 repository-code: "https://github.com/tedfernandes/squad-harness-research"
 url: "https://tedfernandes.github.io/squad-harness-research/"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22481935"
-    description: "Concept DOI (todas as versões)"
-  - type: doi
-    value: "10.5281/zenodo.22481936"
-    description: "DOI da versão v1.0"
+    description: "Concept DOI (todas as versões; resolve sempre para a mais recente)"
