@@ -2,9 +2,13 @@
 
 > Treating agent output with the skepticism of continuous integration.
 
-*Language: [Português](README.md) · **English***
+[Português](README.md) · **English**
 
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22481935-1682D4)](https://doi.org/10.5281/zenodo.22481935) [![Version](https://img.shields.io/github/v/release/tedfernandes/business-agents-research?label=version&color=1682D4)](https://github.com/tedfernandes/business-agents-research/releases) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/) [![paper online](https://img.shields.io/badge/paper-online-2ea44f?logo=github&logoColor=white)](https://tedfernandes.github.io/business-agents-research/)
+[![version](https://img.shields.io/github/v/release/tedfernandes/business-agents-research?label=version&color=1f7a50&style=flat-square)](https://github.com/tedfernandes/business-agents-research/releases)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22481935-696d75?style=flat-square)](https://doi.org/10.5281/zenodo.22481935)
+[![license CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-696d75?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7522--326X-696d75?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X)
+[![paper online](https://img.shields.io/badge/paper-online-696d75?style=flat-square)](https://tedfernandes.github.io/business-agents-research/)
 
 This repository holds a preprint and sanitized illustrative material for a design pattern
 observed in a production multi-agent system we call **business-agents**: a **verification
@@ -17,7 +21,10 @@ The central claim is deliberately narrow:
 > The verification layer beneath it is under-explored, and making **"not measured" a first-class
 > outcome** is the single most valuable design decision in the system.
 
-![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (50 invariants, 7 execute the artifact), and evaluation coverage (37 cases defined, 17 scored).](figures/panel-dark.en.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/panel-dark.en.svg">
+  <img alt="Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (50 invariants, 7 execute the artifact), and evaluation coverage (37 cases defined, 17 scored)." src="figures/panel-light.en.svg">
+</picture>
 
 ## The five mechanisms
 

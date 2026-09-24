@@ -2,9 +2,13 @@
 
 > Tratando a saída do agente com o ceticismo da integração contínua.
 
-*Idioma: **Português** · [English](README.en.md)*
+**Português** · [English](README.en.md)
 
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22481935-1682D4)](https://doi.org/10.5281/zenodo.22481935) [![Versão](https://img.shields.io/github/v/release/tedfernandes/business-agents-research?label=vers%C3%A3o&color=1682D4)](https://github.com/tedfernandes/business-agents-research/releases) [![Licença: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/) [![paper online](https://img.shields.io/badge/paper-online-2ea44f?logo=github&logoColor=white)](https://tedfernandes.github.io/business-agents-research/)
+[![versão](https://img.shields.io/github/v/release/tedfernandes/business-agents-research?label=vers%C3%A3o&color=1f7a50&style=flat-square)](https://github.com/tedfernandes/business-agents-research/releases)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22481935-696d75?style=flat-square)](https://doi.org/10.5281/zenodo.22481935)
+[![licença CC BY 4.0](https://img.shields.io/badge/licen%C3%A7a-CC_BY_4.0-696d75?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7522--326X-696d75?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0006-7522-326X)
+[![paper online](https://img.shields.io/badge/paper-online-696d75?style=flat-square)](https://tedfernandes.github.io/business-agents-research/)
 
 Este repositório reúne um preprint e material ilustrativo sanitizado de um padrão de projeto
 observado num sistema multiagente em produção que chamamos de **business-agents**: um
@@ -18,7 +22,10 @@ A tese, propositalmente estreita:
 > **"não medido" um resultado de primeira classe** é a decisão de projeto mais valiosa do
 > sistema.
 
-![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (50 invariantes, 7 executam o artefato), e cobertura de avaliação (37 casos definidos, 17 pontuados).](figures/panel-dark.pt.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="figures/panel-dark.pt.svg">
+  <img alt="Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (50 invariantes, 7 executam o artefato), e cobertura de avaliação (37 casos definidos, 17 pontuados)." src="figures/panel-light.pt.svg">
+</picture>
 
 ## Os cinco mecanismos
 
