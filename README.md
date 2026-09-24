@@ -18,14 +18,14 @@ A tese, propositalmente estreita:
 > **"não medido" um resultado de primeira classe** é a decisão de projeto mais valiosa do
 > sistema.
 
-![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (45 invariantes, 5 executam o artefato), e cobertura de avaliação (>=30 casos definidos, 1 pontuado).](figures/panel-dark.pt.svg)
+![Números reais do substrato de verificação: terceiro estado (10 de 21 projetos sem teste), catraca (50 invariantes, 7 executam o artefato), e cobertura de avaliação (37 casos definidos, 17 pontuados).](figures/panel-dark.pt.svg)
 
 ## Os cinco mecanismos
 
 1. **O terceiro estado.** Todo gate devolve passou / falhou / *indeterminado*. "Não medido"
    nunca é arredondado para "passou"; indeterminado é um código de saída distinto e nunca dá
    merge automático.
-2. **A catraca de defeitos.** Um gate sem LLM com 45 invariantes, cada uma rastreável a um
+2. **A catraca de defeitos.** Um gate sem LLM com 50 invariantes, cada uma rastreável a um
    defeito real já confirmado. A verificação prefere *executar o artefato* a *casar o texto*
    dele ("menção não prova existência").
 3. **O loop que fecha.** Todo defeito confirmado é compilado em uma invariante mecânica nova

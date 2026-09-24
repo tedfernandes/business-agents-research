@@ -44,23 +44,23 @@
   <text x="28" y="228" class="lg">here they become INDETERMINATE and block auto-merge.</text>
   <line x1="28" y1="244" x2="672" y2="244" stroke="#d8dee4" stroke-width="1"/>
 
-  <text x="28" y="268" class="pt">Structural ratchet · 45 invariants</text>
+  <text x="28" y="268" class="pt">Structural ratchet · 50 invariants</text>
   <rect x="28" y="280" width="644" height="26" rx="5" fill="#2da44e"/>
   <rect x="28" y="280" width="72" height="26" fill="#1a7f37"/>
-  <text x="64" y="298" class="num" text-anchor="middle">5</text>
-  <text x="386" y="298" class="num" text-anchor="middle">40</text>
+  <text x="64" y="298" class="num" text-anchor="middle">7</text>
+  <text x="386" y="298" class="num" text-anchor="middle">43</text>
   <rect x="28" y="320" width="14" height="14" rx="4" fill="#1a7f37"/>
-  <text x="48" y="332" class="lg">execute the real artifact (spawn a suite / flow) · 5</text>
+  <text x="48" y="332" class="lg">execute the real artifact (suite, flow or verifier) · 7</text>
   <rect x="28" y="342" width="14" height="14" rx="4" fill="#2da44e"/>
-  <text x="48" y="354" class="lg">static / structural check · 40</text>
+  <text x="48" y="354" class="lg">static / structural check · 43</text>
   <line x1="28" y1="366" x2="672" y2="366" stroke="#d8dee4" stroke-width="1"/>
 
   <text x="28" y="390" class="pt">Evaluation coverage · reported honestly</text>
   <text x="28" y="410" class="lg">golden cases defined</text>
   <rect x="28" y="416" width="520" height="20" rx="4" fill="#2da44e"/>
-  <text x="556" y="431" class="numg">&#8805;30</text>
+  <text x="556" y="431" class="numg">37</text>
   <text x="28" y="458" class="lg">cases actually scored</text>
   <rect x="28" y="464" width="17" height="20" rx="4" fill="#2da44e"/>
-  <text x="52" y="479" class="numg">1</text>
-  <text x="28" y="508" class="lg">the harness and the &#8805;30 cases exist and are enforced; only 1 was scored at the measured commit.</text>
+  <text x="52" y="479" class="numg">17</text>
+  <text x="28" y="508" class="lg">the harness and the &#8805;30 cases exist and are enforced; 17 were scored across 4 agents at the measured commit.</text>
 </svg>
