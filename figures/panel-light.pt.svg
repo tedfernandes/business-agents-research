@@ -44,23 +44,23 @@
   <text x="28" y="228" class="lg">aqui viram INDETERMINADO e nao dao merge automatico.</text>
   <line x1="28" y1="244" x2="672" y2="244" stroke="#d8dee4" stroke-width="1"/>
 
-  <text x="28" y="268" class="pt">Catraca estrutural · 45 invariantes</text>
+  <text x="28" y="268" class="pt">Catraca estrutural · 50 invariantes</text>
   <rect x="28" y="280" width="644" height="26" rx="5" fill="#2da44e"/>
   <rect x="28" y="280" width="72" height="26" fill="#1a7f37"/>
-  <text x="64" y="298" class="num" text-anchor="middle">5</text>
-  <text x="386" y="298" class="num" text-anchor="middle">40</text>
+  <text x="64" y="298" class="num" text-anchor="middle">7</text>
+  <text x="386" y="298" class="num" text-anchor="middle">43</text>
   <rect x="28" y="320" width="14" height="14" rx="4" fill="#1a7f37"/>
-  <text x="48" y="332" class="lg">executam o artefato real (spawn de suite / fluxo) · 5</text>
+  <text x="48" y="332" class="lg">executam o artefato real (suite, fluxo ou verificador) · 7</text>
   <rect x="28" y="342" width="14" height="14" rx="4" fill="#2da44e"/>
-  <text x="48" y="354" class="lg">checagem estatica / estrutural · 40</text>
+  <text x="48" y="354" class="lg">checagem estatica / estrutural · 43</text>
   <line x1="28" y1="366" x2="672" y2="366" stroke="#d8dee4" stroke-width="1"/>
 
   <text x="28" y="390" class="pt">Cobertura de avaliacao · reportada com honestidade</text>
   <text x="28" y="410" class="lg">casos-golden definidos</text>
   <rect x="28" y="416" width="520" height="20" rx="4" fill="#2da44e"/>
-  <text x="556" y="431" class="numg">&#8805;30</text>
+  <text x="556" y="431" class="numg">37</text>
   <text x="28" y="458" class="lg">casos efetivamente pontuados</text>
   <rect x="28" y="464" width="17" height="20" rx="4" fill="#2da44e"/>
-  <text x="52" y="479" class="numg">1</text>
-  <text x="28" y="508" class="lg">o harness e os &#8805;30 casos existem e sao impostos; so 1 foi pontuado no commit medido.</text>
+  <text x="52" y="479" class="numg">17</text>
+  <text x="28" y="508" class="lg">o harness e os &#8805;30 casos existem e sao impostos; 17 foram pontuados em 4 agentes no commit medido.</text>
 </svg>
