@@ -17,13 +17,13 @@ The central claim is deliberately narrow:
 > The verification layer beneath it is under-explored, and making **"not measured" a first-class
 > outcome** is the single most valuable design decision in the system.
 
-![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (45 invariants, 5 execute the artifact), and evaluation coverage (>=30 cases defined, 1 scored).](figures/panel-dark.en.svg)
+![Real verification-substrate figures: third state (10 of 21 projects with no tests), structural ratchet (50 invariants, 7 execute the artifact), and evaluation coverage (37 cases defined, 17 scored).](figures/panel-dark.en.svg)
 
 ## The five mechanisms
 
 1. **The third state.** Every gate returns pass / fail / *indeterminate*. "Not measured" is never
    rounded to "passed"; indeterminate is a distinct exit code and never auto-merges.
-2. **The defect-ledger ratchet.** An LLM-free gate of 45 invariants, each provenance-linked to
+2. **The defect-ledger ratchet.** An LLM-free gate of 50 invariants, each provenance-linked to
    a real, previously confirmed defect. Verification prefers *executing the artifact* over
    *string-matching its text* ("mention does not prove existence").
 3. **The closing loop.** Each confirmed defect is compiled into either a new mechanical invariant
